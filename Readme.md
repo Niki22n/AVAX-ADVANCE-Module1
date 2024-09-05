@@ -1,6 +1,6 @@
 # AVAX-ADVANCE-Module1 DeFi Empire Clone
 ## Description
-The project includes two smart contracts, ERC20GameContract and Vault, designed to enable a decentralized gaming ecosystem on the Avalanche blockchain. Players can explore, make purchases, and engage in battles using digital assets while earning rewards in custom tokens. Players receive choice boards based on their badges, which they can also transfer to friends within the game.
+The project includes two smart contracts, ERC20 GameToken and SecureVault, designed to enable a decentralized gaming ecosystem on the Avalanche blockchain. Players can explore, make purchases, and engage in battles using digital assets while earning rewards in custom tokens. Players receive choice boards based on their badges, which they can also transfer to friends within the game.
 
 ## EVM Subnet Configuration - Step by Step Guide
 1. Deploying your EVM subnet using the Avalanche CLI
@@ -22,9 +22,9 @@ Execute GameToken.sol contracts with Remix. This token acts as an in-game curren
 6. Enable Smart Contracts
 Copy and paste your solid smart contract code into Remix. Collect contracts and then deploy them to your custom EVM subnet using Remix's deployment interface.
 
-7. Test your app!
+7. Test your app.
    
-## ERC20GameContract.sol
+## GameToken.sol
 The GameToken contract is an ERC20-like token contract with basic functionalities such as transferring tokens, approving allowances, and minting or burning tokens. Key features include:
 ### Token Management
 The contract handles the total token supply, tracks the balances of each account, and manages allowances for delegated transfers.
